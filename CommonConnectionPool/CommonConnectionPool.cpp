@@ -32,7 +32,7 @@ bool ConnectionPool::loadConfigFile()
 			continue;
 		}
 
-		// password=123456\n
+		// password=toor\n
 		int endidx = str.find('\n', idx);
 		string key = str.substr(0, idx);
 		string value = str.substr(idx + 1, endidx - idx - 1);
